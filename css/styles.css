@@ -1,0 +1,263 @@
+
+/* body */
+
+body{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+/* Title */
+
+#title{
+    background-color: #002fff;
+    background-image: 
+    url("/images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 125% ;
+}
+
+
+.container-fluid{
+    padding: 2% 4%;
+    margin: 0;
+}
+
+h1{
+    font-size: 275%;
+    line-height: 1.5;
+    font-weight: bolder;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    color: #ffff00;
+}
+
+#Quest-to-Enlightenment{
+    width: 35%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 11%;
+    padding: 2%;
+} 
+
+.navbar{
+    padding: 5% ;
+}
+  
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 190%;
+    position: relative;
+    right: 2%;
+}
+
+.nav-item{
+    padding: 1.5%;
+}
+
+.nav-link{
+    font-size: 150%;
+}
+
+.download-button{
+    margin: 8% 14% 8% auto;
+    position: relative;
+    left: 20%;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+/* Features */
+
+#features{
+    padding: 3% 10%;
+    background-color: #f3f5f7;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+
+    text-align: center;
+    padding: 2.5%;
+    color: #0b51bb;
+}
+
+p{
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.icon {
+    color: #0d6efd;
+    margin-bottom: 8%;
+}
+
+.icon:hover{
+    color: #0b51bb;
+}
+
+
+#gita-cover{
+   width: 10%;
+   float: right;  
+}
+
+h3{
+    line-height: 200%;
+    font-size: 150%;
+}
+
+/* Famous-reflections */
+
+#Famous-reflections{
+    background-color: #2749e0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    height: 100%;
+}
+
+#reflection-slides{
+    padding: 1% 12%;
+    text-align: center;
+}
+
+.reflections-images{
+
+    width: 15rem;
+    border-radius: 100%;
+    float: left;
+    padding-bottom: 1%;
+    padding-right: 1rem;
+
+}
+
+/* Pricing */
+
+#pricing{
+padding: 5%;
+text-align: center;
+}
+
+.pricing-cards{
+    margin: 3%;
+    padding: 3%;
+
+}
+
+/* Call to action */
+
+#cta{
+    
+    text-align: center;
+    font-size: 200%;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5%;
+    background-image: 
+    url("/images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.download-button-cta{
+    margin: 4% 2% 4%;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    background-color: #002fff;
+    color: #ffffff;
+}
+.footer-icon{
+    margin: 2% 1% 2%;
+    size: 5x;
+    color: #ffffff;
+
+}
+
+.footer-icon:hover{
+    
+    color: #ffff00;
+}
+
+/* Copyright */
+
+#copyr{
+    padding: 1%;
+}
+
+.fa-youtube-play {
+    color: white;
+  }
+
+
+/* Media Query */
+
+@media screen and  (max-width: 992px){
+    #title{
+        background-color: #002fff;
+        background-image: none;
+    }
+
+    #Quest-to-Enlightenment{
+        text-align: center;
+        width: 100%;
+        transform: rotate(0deg);
+        position: relative;
+        left:0%;
+    } 
+
+    #features{
+        padding: 3% 10%;
+        background-color: #f3f5f7;
+    }
+
+    .reflections-images{
+        width: 15rem;
+        border-radius: 100%;
+        float: none;
+        padding-bottom: 1%;
+    }
+
+    .card{
+        margin: 3% auto;
+    }
+
+    #cta{
+        text-align: center;
+        font-size: 200%;
+        color: #ffff00;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 10%;
+        background-image: none;
+        background-color: #002fff;
+    }
+
+    .download-button{
+        position: relative;
+        left: 8%;
+        margin: 5% 2% 5%;
+    }
+
+    .footer-icon{
+        margin: 5% 1% 5%;
+        size: 5x;
+        color: #002fff;
+    }
+
+    .footer-icon:hover{
+    
+        color: #000000;
+    }
+
+    #footer{
+        text-align: center;
+        background-color: #f8f4f4;
+        color:#002fff;
+    }
+}
